@@ -170,6 +170,10 @@ body {
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
 
+.center {
+    height: auto;
+}
+
 .img-chart {
     display: none;
 }
@@ -187,12 +191,12 @@ body {
 }
 
 .text-container {
-    height: 450px;
-    margin: 20px;
+    margin: 25px;
+    height: 400px;
 }
 
 body {
-    height: 108vh;
+    background: white;
 }
 
 .attribution {
